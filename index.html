@@ -308,28 +308,46 @@
 <body>
 
 <!-- NAVBAR -->
+<!-- NAVBAR -->
 <nav class="navbar">
   <div class="logo">
     <img src="ULEKO.jpg" alt="ULEKO Logo">
   </div>
 
-  <div class="nav-right">
-    <ul class="nav-links">
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Watch Videos</li>
-      <li>Blog</li>
-    </ul>
-
-    
+  <!-- Burger Icon -->
+  <div class="burger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
 
-  <div class="nav-subscribe">
+  <!-- Desktop Links -->
+  <ul class="nav-links">
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Watch Videos</li>
+    <li>Blog</li>
+  </ul>
+</nav>
+
+<div class="nav-subscribe">
     <a href="https://www.youtube.com/@YOURCHANNEL" target="_blank" class="subscribe-btn">
       Subscribe to Our Channel
     </a>
   </div>
 </nav>
+
+<!-- MOBILE SIDE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Watch Videos</li>
+    <li>Blog</li>
+  </ul>
+</div>
+
+ 
 
 
   <!-- HERO -->
@@ -470,3 +488,4 @@
 
 </body>
 </html>
+
